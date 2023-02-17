@@ -1,8 +1,10 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 10rem;
     max-height: 90vh;
     background-color: wheat;
+    display: flex;
+    justify-content: space-around;
 }
 
 .grill {
@@ -19,19 +21,16 @@ body {
 }
 
 .operation > button {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1rem;
     border: 1px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    background-color: #008BA0;
     border-radius: 50%;
 }
 
-button.mathematic-operators {
-    background-color: rgba(192, 192, 192, .75);
-}
 
 .output {
     grid-column: 1 / -1;
@@ -56,7 +55,8 @@ button.mathematic-operators {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     padding: 10px;
     word-wrap: break-word;
